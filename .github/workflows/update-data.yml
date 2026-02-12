@@ -1,0 +1,44 @@
+name: Update COT Data & Generate Blog
+
+on:
+  schedule:
+    # Run every Tuesday at 9 PM UTC (4 PM ET)
+    - cron: '0 21 * * 2'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Fetch COT data
+        run: node scripts/fetch-cot-data.js
+        
+      - name: Generate blog post
+        run: node scripts/generate-blog.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data/cot-latest.json
+          git add app/blog/posts/*.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Update COT data and generate blog [$(date +'%Y-%m-%d')]" && git push)

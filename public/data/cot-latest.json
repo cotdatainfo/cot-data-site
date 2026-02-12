@@ -1,0 +1,908 @@
+{
+  "reportDate": "2026-02-03T00:00:00.000",
+  "lastUpdated": "2026-02-12T08:51:47.136Z",
+  "markets": [
+    {
+      "name": "10Y Treasury",
+      "symbol": "ZN",
+      "category": "Bonds",
+      "positions": {
+        "commercial": {
+          "long": 4160322,
+          "short": 3495332,
+          "net": 664990
+        },
+        "nonCommercial": {
+          "long": 698068,
+          "short": 1427482,
+          "net": -729414
+        }
+      },
+      "changes": {
+        "net": -3263,
+        "percent": -0.45
+      },
+      "openInterest": 5495119
+    },
+    {
+      "name": "2Y Treasury",
+      "symbol": "ZT",
+      "category": "Bonds",
+      "positions": {
+        "commercial": {
+          "long": 3495535,
+          "short": 2247755,
+          "net": 1247780
+        },
+        "nonCommercial": {
+          "long": 755987,
+          "short": 2103589,
+          "net": -1347602
+        }
+      },
+      "changes": {
+        "net": -128603,
+        "percent": -10.55
+      },
+      "openInterest": 4645002
+    },
+    {
+      "name": "30Y Treasury",
+      "symbol": "ZB",
+      "category": "Bonds",
+      "positions": {
+        "commercial": {
+          "long": 1285239,
+          "short": 1368861,
+          "net": -83622
+        },
+        "nonCommercial": {
+          "long": 173194,
+          "short": 186798,
+          "net": -13604
+        }
+      },
+      "changes": {
+        "net": -5437,
+        "percent": -66.57
+      },
+      "openInterest": 1727709
+    },
+    {
+      "name": "5Y Treasury",
+      "symbol": "ZF",
+      "category": "Bonds",
+      "positions": {
+        "commercial": {
+          "long": 5693498,
+          "short": 3662540,
+          "net": 2030958
+        },
+        "nonCommercial": {
+          "long": 543500,
+          "short": 2702480,
+          "net": -2158980
+        }
+      },
+      "changes": {
+        "net": -67934,
+        "percent": -3.25
+      },
+      "openInterest": 6896712
+    },
+    {
+      "name": "Australian Dollar",
+      "symbol": "AUD",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 92582,
+          "short": 140642,
+          "net": -48060
+        },
+        "nonCommercial": {
+          "long": 118751,
+          "short": 92633,
+          "net": 26118
+        }
+      },
+      "changes": {
+        "net": 18972,
+        "percent": 265.49
+      },
+      "openInterest": 254240
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "category": "Crypto",
+      "positions": {
+        "commercial": {
+          "long": 521,
+          "short": 1489,
+          "net": -968
+        },
+        "nonCommercial": {
+          "long": 18939,
+          "short": 17931,
+          "net": 1008
+        }
+      },
+      "changes": {
+        "net": 318,
+        "percent": 46.09
+      },
+      "openInterest": 23044
+    },
+    {
+      "name": "Brazilian Real",
+      "symbol": "BRL",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 24421,
+          "short": 59554,
+          "net": -35133
+        },
+        "nonCommercial": {
+          "long": 57232,
+          "short": 26270,
+          "net": 30962
+        }
+      },
+      "changes": {
+        "net": 12117,
+        "percent": 64.3
+      },
+      "openInterest": 87335
+    },
+    {
+      "name": "British Pound",
+      "symbol": "GBP",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 96004,
+          "short": 88940,
+          "net": 7064
+        },
+        "nonCommercial": {
+          "long": 94893,
+          "short": 108804,
+          "net": -13911
+        }
+      },
+      "changes": {
+        "net": 2251,
+        "percent": 13.93
+      },
+      "openInterest": 227888
+    },
+    {
+      "name": "Canadian Dollar",
+      "symbol": "CAD",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 104119,
+          "short": 112035,
+          "net": -7916
+        },
+        "nonCommercial": {
+          "long": 77397,
+          "short": 75267,
+          "net": 2130
+        }
+      },
+      "changes": {
+        "net": 18176,
+        "percent": 113.27
+      },
+      "openInterest": 216252
+    },
+    {
+      "name": "Cocoa",
+      "symbol": "CC",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 76466,
+          "short": 62505,
+          "net": 13961
+        },
+        "nonCommercial": {
+          "long": 31042,
+          "short": 45550,
+          "net": -14508
+        }
+      },
+      "changes": {
+        "net": 994,
+        "percent": 6.41
+      },
+      "openInterest": 160254
+    },
+    {
+      "name": "Coffee C",
+      "symbol": "KC",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 79405,
+          "short": 98242,
+          "net": -18837
+        },
+        "nonCommercial": {
+          "long": 49342,
+          "short": 30978,
+          "net": 18364
+        }
+      },
+      "changes": {
+        "net": -14370,
+        "percent": -43.9
+      },
+      "openInterest": 179573
+    },
+    {
+      "name": "Copper",
+      "symbol": "HG",
+      "category": "Metals",
+      "positions": {
+        "commercial": {
+          "long": 87240,
+          "short": 149791,
+          "net": -62551
+        },
+        "nonCommercial": {
+          "long": 97407,
+          "short": 49593,
+          "net": 47814
+        }
+      },
+      "changes": {
+        "net": -576,
+        "percent": -1.19
+      },
+      "openInterest": 278845
+    },
+    {
+      "name": "Corn",
+      "symbol": "C",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 777607,
+          "short": 724691,
+          "net": 52916
+        },
+        "nonCommercial": {
+          "long": 344781,
+          "short": 379479,
+          "net": -34698
+        }
+      },
+      "changes": {
+        "net": -3027,
+        "percent": -9.56
+      },
+      "openInterest": 1740882
+    },
+    {
+      "name": "Crude Oil WTI",
+      "symbol": "CL",
+      "category": "Energy",
+      "positions": {
+        "commercial": {
+          "long": 879932,
+          "short": 1032431,
+          "net": -152499
+        },
+        "nonCommercial": {
+          "long": 315529,
+          "short": 190964,
+          "net": 124565
+        }
+      },
+      "changes": {
+        "net": 27583,
+        "percent": 28.44
+      },
+      "openInterest": 2091314
+    },
+    {
+      "name": "Dow Jones",
+      "symbol": "YM",
+      "category": "Index",
+      "positions": {
+        "commercial": {
+          "long": 37734,
+          "short": 39981,
+          "net": -2247
+        },
+        "nonCommercial": {
+          "long": 20011,
+          "short": 18964,
+          "net": 1047
+        }
+      },
+      "changes": {
+        "net": -97,
+        "percent": -8.48
+      },
+      "openInterest": 70011
+    },
+    {
+      "name": "Ethanol",
+      "symbol": "EH",
+      "category": "Energy",
+      "positions": {
+        "commercial": {
+          "long": 32338,
+          "short": 38132,
+          "net": -5794
+        },
+        "nonCommercial": {
+          "long": 8377,
+          "short": 2792,
+          "net": 5585
+        }
+      },
+      "changes": {
+        "net": 259,
+        "percent": 4.86
+      },
+      "openInterest": 44051
+    },
+    {
+      "name": "Euro FX",
+      "symbol": "EUR",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 483911,
+          "short": 702452,
+          "net": -218541
+        },
+        "nonCommercial": {
+          "long": 302301,
+          "short": 138940,
+          "net": 163361
+        }
+      },
+      "changes": {
+        "net": 31227,
+        "percent": 23.63
+      },
+      "openInterest": 910464
+    },
+    {
+      "name": "Feeder Cattle",
+      "symbol": "GF",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 14076,
+          "short": 18342,
+          "net": -4266
+        },
+        "nonCommercial": {
+          "long": 31840,
+          "short": 21744,
+          "net": 10096
+        }
+      },
+      "changes": {
+        "net": 1421,
+        "percent": 16.38
+      },
+      "openInterest": 79277
+    },
+    {
+      "name": "Gasoline RBOB",
+      "symbol": "RB",
+      "category": "Energy",
+      "positions": {
+        "commercial": {
+          "long": 216553,
+          "short": 305410,
+          "net": -88857
+        },
+        "nonCommercial": {
+          "long": 116257,
+          "short": 39826,
+          "net": 76431
+        }
+      },
+      "changes": {
+        "net": -2782,
+        "percent": -3.51
+      },
+      "openInterest": 469165
+    },
+    {
+      "name": "Gold",
+      "symbol": "GC",
+      "category": "Metals",
+      "positions": {
+        "commercial": {
+          "long": 87964,
+          "short": 295742,
+          "net": -207778
+        },
+        "nonCommercial": {
+          "long": 214508,
+          "short": 48904,
+          "net": 165604
+        }
+      },
+      "changes": {
+        "net": -39792,
+        "percent": -19.37
+      },
+      "openInterest": 409694
+    },
+    {
+      "name": "Heating Oil",
+      "symbol": "HO",
+      "category": "Energy",
+      "positions": {
+        "commercial": {
+          "long": 170829,
+          "short": 214880,
+          "net": -44051
+        },
+        "nonCommercial": {
+          "long": 62759,
+          "short": 37480,
+          "net": 25279
+        }
+      },
+      "changes": {
+        "net": 1444,
+        "percent": 6.06
+      },
+      "openInterest": 366997
+    },
+    {
+      "name": "Japanese Yen",
+      "symbol": "JPY",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 122665,
+          "short": 108248,
+          "net": 14417
+        },
+        "nonCommercial": {
+          "long": 114428,
+          "short": 133650,
+          "net": -19222
+        }
+      },
+      "changes": {
+        "net": 14711,
+        "percent": 43.35
+      },
+      "openInterest": 303673
+    },
+    {
+      "name": "Lean Hogs",
+      "symbol": "HE",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 113508,
+          "short": 184082,
+          "net": -70574
+        },
+        "nonCommercial": {
+          "long": 161832,
+          "short": 82463,
+          "net": 79369
+        }
+      },
+      "changes": {
+        "net": 13433,
+        "percent": 20.37
+      },
+      "openInterest": 375763
+    },
+    {
+      "name": "Live Cattle",
+      "symbol": "LE",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 108319,
+          "short": 187976,
+          "net": -79657
+        },
+        "nonCommercial": {
+          "long": 151701,
+          "short": 59852,
+          "net": 91849
+        }
+      },
+      "changes": {
+        "net": 2871,
+        "percent": 3.23
+      },
+      "openInterest": 336190
+    },
+    {
+      "name": "Mexican Peso",
+      "symbol": "MXN",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 84224,
+          "short": 180027,
+          "net": -95803
+        },
+        "nonCommercial": {
+          "long": 132392,
+          "short": 41800,
+          "net": 90592
+        }
+      },
+      "changes": {
+        "net": -12522,
+        "percent": -12.14
+      },
+      "openInterest": 225867
+    },
+    {
+      "name": "Micro Ethereum",
+      "symbol": "ETH",
+      "category": "Crypto",
+      "positions": {
+        "commercial": {
+          "long": 0,
+          "short": 0,
+          "net": 0
+        },
+        "nonCommercial": {
+          "long": 109236,
+          "short": 112432,
+          "net": -3196
+        }
+      },
+      "changes": {
+        "net": 351,
+        "percent": 9.9
+      },
+      "openInterest": 115739
+    },
+    {
+      "name": "Nasdaq 100",
+      "symbol": "NQ",
+      "category": "Index",
+      "positions": {
+        "commercial": {
+          "long": 139441,
+          "short": 166226,
+          "net": -26785
+        },
+        "nonCommercial": {
+          "long": 81685,
+          "short": 69617,
+          "net": 12068
+        }
+      },
+      "changes": {
+        "net": -16812,
+        "percent": -58.21
+      },
+      "openInterest": 279784
+    },
+    {
+      "name": "Natural Gas",
+      "symbol": "NG",
+      "category": "Energy",
+      "positions": {
+        "commercial": {
+          "long": 620513,
+          "short": 457057,
+          "net": 163456
+        },
+        "nonCommercial": {
+          "long": 215099,
+          "short": 387409,
+          "net": -172310
+        }
+      },
+      "changes": {
+        "net": -8704,
+        "percent": -5.32
+      },
+      "openInterest": 1655983
+    },
+    {
+      "name": "New Zealand Dollar",
+      "symbol": "NZD",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 54596,
+          "short": 20220,
+          "net": 34376
+        },
+        "nonCommercial": {
+          "long": 11883,
+          "short": 46177,
+          "net": -34294
+        }
+      },
+      "changes": {
+        "net": 13451,
+        "percent": 28.17
+      },
+      "openInterest": 71304
+    },
+    {
+      "name": "Platinum",
+      "symbol": "PL",
+      "category": "Metals",
+      "positions": {
+        "commercial": {
+          "long": 19742,
+          "short": 39949,
+          "net": -20207
+        },
+        "nonCommercial": {
+          "long": 31468,
+          "short": 18362,
+          "net": 13106
+        }
+      },
+      "changes": {
+        "net": -816,
+        "percent": -5.86
+      },
+      "openInterest": 73590
+    },
+    {
+      "name": "Russell 2000",
+      "symbol": "RTY",
+      "category": "Index",
+      "positions": {
+        "commercial": {
+          "long": 269681,
+          "short": 289115,
+          "net": -19434
+        },
+        "nonCommercial": {
+          "long": 92836,
+          "short": 88538,
+          "net": 4298
+        }
+      },
+      "changes": {
+        "net": -8029,
+        "percent": -65.13
+      },
+      "openInterest": 407183
+    },
+    {
+      "name": "S&P 500",
+      "symbol": "ES",
+      "category": "Index",
+      "positions": {
+        "commercial": {
+          "long": 1385081,
+          "short": 1371743,
+          "net": 13338
+        },
+        "nonCommercial": {
+          "long": 244946,
+          "short": 374275,
+          "net": -129329
+        }
+      },
+      "changes": {
+        "net": -31582,
+        "percent": -32.31
+      },
+      "openInterest": 1949539
+    },
+    {
+      "name": "Silver",
+      "symbol": "SI",
+      "category": "Metals",
+      "positions": {
+        "commercial": {
+          "long": 35248,
+          "short": 80973,
+          "net": -45725
+        },
+        "nonCommercial": {
+          "long": 38883,
+          "short": 13006,
+          "net": 25877
+        }
+      },
+      "changes": {
+        "net": 2174,
+        "percent": 9.17
+      },
+      "openInterest": 143180
+    },
+    {
+      "name": "Soybean Meal",
+      "symbol": "SM",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 284653,
+          "short": 300269,
+          "net": -15616
+        },
+        "nonCommercial": {
+          "long": 113333,
+          "short": 110509,
+          "net": 2824
+        }
+      },
+      "changes": {
+        "net": 11118,
+        "percent": 134.05
+      },
+      "openInterest": 545729
+    },
+    {
+      "name": "Soybean Oil",
+      "symbol": "BO",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 317654,
+          "short": 357607,
+          "net": -39953
+        },
+        "nonCommercial": {
+          "long": 138652,
+          "short": 102745,
+          "net": 35907
+        }
+      },
+      "changes": {
+        "net": -5369,
+        "percent": -13.01
+      },
+      "openInterest": 667851
+    },
+    {
+      "name": "Soybeans",
+      "symbol": "S",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 454017,
+          "short": 497289,
+          "net": -43272
+        },
+        "nonCommercial": {
+          "long": 177970,
+          "short": 113803,
+          "net": 64167
+        }
+      },
+      "changes": {
+        "net": 6736,
+        "percent": 11.73
+      },
+      "openInterest": 883178
+    },
+    {
+      "name": "Sugar #11",
+      "symbol": "SB",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 606374,
+          "short": 370340,
+          "net": 236034
+        },
+        "nonCommercial": {
+          "long": 154357,
+          "short": 364646,
+          "net": -210289
+        }
+      },
+      "changes": {
+        "net": -42536,
+        "percent": -25.36
+      },
+      "openInterest": 1059582
+    },
+    {
+      "name": "Swiss Franc",
+      "symbol": "CHF",
+      "category": "FX",
+      "positions": {
+        "commercial": {
+          "long": 65424,
+          "short": 26412,
+          "net": 39012
+        },
+        "nonCommercial": {
+          "long": 9687,
+          "short": 50404,
+          "net": -40717
+        }
+      },
+      "changes": {
+        "net": 2176,
+        "percent": 5.07
+      },
+      "openInterest": 93555
+    },
+    {
+      "name": "VIX",
+      "symbol": "VX",
+      "category": "Index",
+      "positions": {
+        "commercial": {
+          "long": 188489,
+          "short": 108780,
+          "net": 79709
+        },
+        "nonCommercial": {
+          "long": 75037,
+          "short": 155672,
+          "net": -80635
+        }
+      },
+      "changes": {
+        "net": -5649,
+        "percent": -7.53
+      },
+      "openInterest": 364584
+    },
+    {
+      "name": "Wheat (HRW)",
+      "symbol": "KW",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 129452,
+          "short": 116682,
+          "net": 12770
+        },
+        "nonCommercial": {
+          "long": 84076,
+          "short": 92218,
+          "net": -8142
+        }
+      },
+      "changes": {
+        "net": -4976,
+        "percent": -157.17
+      },
+      "openInterest": 312784
+    },
+    {
+      "name": "Wheat (SRW)",
+      "symbol": "W",
+      "category": "Grains",
+      "positions": {
+        "commercial": {
+          "long": 198550,
+          "short": 131486,
+          "net": 67064
+        },
+        "nonCommercial": {
+          "long": 121319,
+          "short": 186815,
+          "net": -65496
+        }
+      },
+      "changes": {
+        "net": 13894,
+        "percent": 17.5
+      },
+      "openInterest": 543432
+    }
+  ]
+}

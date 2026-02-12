@@ -1,0 +1,427 @@
+{
+  "lastUpdated": "2026-02-11T17:37:19.372Z",
+  "totalWeeks": 1,
+  "oldestDate": "2026-02-03T00:00:00.000",
+  "newestDate": "2026-02-03T00:00:00.000",
+  "weeks": [
+    {
+      "reportDate": "2026-02-03T00:00:00.000",
+      "markets": [
+        {
+          "name": "Swiss Franc",
+          "symbol": "CHF",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 92582,
+              "short": 140642,
+              "net": -48060
+            },
+            "nonCommercial": {
+              "long": 118751,
+              "short": 92633,
+              "net": 26118
+            }
+          },
+          "openInterest": 254240
+        },
+        {
+          "name": "Canadian Dollar",
+          "symbol": "CAD",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 104119,
+              "short": 112035,
+              "net": -7916
+            },
+            "nonCommercial": {
+              "long": 77397,
+              "short": 75267,
+              "net": 2130
+            }
+          },
+          "openInterest": 216252
+        },
+        {
+          "name": "10Y Treasury",
+          "symbol": "ZN",
+          "category": "Bonds",
+          "positions": {
+            "commercial": {
+              "long": 1285239,
+              "short": 1368861,
+              "net": -83622
+            },
+            "nonCommercial": {
+              "long": 173194,
+              "short": 186798,
+              "net": -13604
+            }
+          },
+          "openInterest": 1727709
+        },
+        {
+          "name": "Nasdaq 100",
+          "symbol": "NQ",
+          "category": "Indices",
+          "positions": {
+            "commercial": {
+              "long": 269681,
+              "short": 289115,
+              "net": -19434
+            },
+            "nonCommercial": {
+              "long": 92836,
+              "short": 88538,
+              "net": 4298
+            }
+          },
+          "openInterest": 407183
+        },
+        {
+          "name": "Bitcoin",
+          "symbol": "BTC",
+          "category": "Crypto",
+          "positions": {
+            "commercial": {
+              "long": 521,
+              "short": 1489,
+              "net": -968
+            },
+            "nonCommercial": {
+              "long": 18939,
+              "short": 17931,
+              "net": 1008
+            }
+          },
+          "openInterest": 23044
+        },
+        {
+          "name": "Japanese Yen",
+          "symbol": "JPY",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 122665,
+              "short": 108248,
+              "net": 14417
+            },
+            "nonCommercial": {
+              "long": 114428,
+              "short": 133650,
+              "net": -19222
+            }
+          },
+          "openInterest": 303673
+        },
+        {
+          "name": "S&P 500",
+          "symbol": "ES",
+          "category": "Indices",
+          "positions": {
+            "commercial": {
+              "long": 1385081,
+              "short": 1371743,
+              "net": 13338
+            },
+            "nonCommercial": {
+              "long": 244946,
+              "short": 374275,
+              "net": -129329
+            }
+          },
+          "openInterest": 1949539
+        },
+        {
+          "name": "Crude Oil WTI",
+          "symbol": "CL",
+          "category": "Energy",
+          "positions": {
+            "commercial": {
+              "long": 879932,
+              "short": 1032431,
+              "net": -152499
+            },
+            "nonCommercial": {
+              "long": 315529,
+              "short": 190964,
+              "net": 124565
+            }
+          },
+          "openInterest": 2091314
+        },
+        {
+          "name": "Gold",
+          "symbol": "GC",
+          "category": "Metals",
+          "positions": {
+            "commercial": {
+              "long": 87964,
+              "short": 295742,
+              "net": -207778
+            },
+            "nonCommercial": {
+              "long": 214508,
+              "short": 48904,
+              "net": 165604
+            }
+          },
+          "openInterest": 409694
+        },
+        {
+          "name": "Wheat",
+          "symbol": "W",
+          "category": "Grains",
+          "positions": {
+            "commercial": {
+              "long": 198550,
+              "short": 131486,
+              "net": 67064
+            },
+            "nonCommercial": {
+              "long": 121319,
+              "short": 186815,
+              "net": -65496
+            }
+          },
+          "openInterest": 543432
+        },
+        {
+          "name": "British Pound",
+          "symbol": "GBP",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 96004,
+              "short": 88940,
+              "net": 7064
+            },
+            "nonCommercial": {
+              "long": 94893,
+              "short": 108804,
+              "net": -13911
+            }
+          },
+          "openInterest": 227888
+        },
+        {
+          "name": "Australian Dollar",
+          "symbol": "AUD",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 84224,
+              "short": 180027,
+              "net": -95803
+            },
+            "nonCommercial": {
+              "long": 132392,
+              "short": 41800,
+              "net": 90592
+            }
+          },
+          "openInterest": 225867
+        },
+        {
+          "name": "Soybeans",
+          "symbol": "S",
+          "category": "Grains",
+          "positions": {
+            "commercial": {
+              "long": 454017,
+              "short": 497289,
+              "net": -43272
+            },
+            "nonCommercial": {
+              "long": 177970,
+              "short": 113803,
+              "net": 64167
+            }
+          },
+          "openInterest": 883178
+        },
+        {
+          "name": "5Y Treasury",
+          "symbol": "ZF",
+          "category": "Bonds",
+          "positions": {
+            "commercial": {
+              "long": 3495535,
+              "short": 2247755,
+              "net": 1247780
+            },
+            "nonCommercial": {
+              "long": 755987,
+              "short": 2103589,
+              "net": -1347602
+            }
+          },
+          "openInterest": 4645002
+        },
+        {
+          "name": "Corn",
+          "symbol": "C",
+          "category": "Grains",
+          "positions": {
+            "commercial": {
+              "long": 777607,
+              "short": 724691,
+              "net": 52916
+            },
+            "nonCommercial": {
+              "long": 344781,
+              "short": 379479,
+              "net": -34698
+            }
+          },
+          "openInterest": 1740882
+        },
+        {
+          "name": "Silver",
+          "symbol": "SI",
+          "category": "Metals",
+          "positions": {
+            "commercial": {
+              "long": 35248,
+              "short": 80973,
+              "net": -45725
+            },
+            "nonCommercial": {
+              "long": 38883,
+              "short": 13006,
+              "net": 25877
+            }
+          },
+          "openInterest": 143180
+        },
+        {
+          "name": "Dow Jones",
+          "symbol": "YM",
+          "category": "Indices",
+          "positions": {
+            "commercial": {
+              "long": 37734,
+              "short": 39981,
+              "net": -2247
+            },
+            "nonCommercial": {
+              "long": 20011,
+              "short": 18964,
+              "net": 1047
+            }
+          },
+          "openInterest": 70011
+        },
+        {
+          "name": "Heating Oil",
+          "symbol": "HO",
+          "category": "Energy",
+          "positions": {
+            "commercial": {
+              "long": 170829,
+              "short": 214880,
+              "net": -44051
+            },
+            "nonCommercial": {
+              "long": 62759,
+              "short": 37480,
+              "net": 25279
+            }
+          },
+          "openInterest": 366997
+        },
+        {
+          "name": "Platinum",
+          "symbol": "PL",
+          "category": "Metals",
+          "positions": {
+            "commercial": {
+              "long": 19742,
+              "short": 39949,
+              "net": -20207
+            },
+            "nonCommercial": {
+              "long": 31468,
+              "short": 18362,
+              "net": 13106
+            }
+          },
+          "openInterest": 73590
+        },
+        {
+          "name": "Natural Gas",
+          "symbol": "NG",
+          "category": "Energy",
+          "positions": {
+            "commercial": {
+              "long": 620513,
+              "short": 457057,
+              "net": 163456
+            },
+            "nonCommercial": {
+              "long": 215099,
+              "short": 387409,
+              "net": -172310
+            }
+          },
+          "openInterest": 1655983
+        },
+        {
+          "name": "Euro FX",
+          "symbol": "EUR",
+          "category": "FX",
+          "positions": {
+            "commercial": {
+              "long": 65424,
+              "short": 26412,
+              "net": 39012
+            },
+            "nonCommercial": {
+              "long": 9687,
+              "short": 50404,
+              "net": -40717
+            }
+          },
+          "openInterest": 93555
+        },
+        {
+          "name": "Copper",
+          "symbol": "HG",
+          "category": "Metals",
+          "positions": {
+            "commercial": {
+              "long": 87240,
+              "short": 149791,
+              "net": -62551
+            },
+            "nonCommercial": {
+              "long": 97407,
+              "short": 49593,
+              "net": 47814
+            }
+          },
+          "openInterest": 278845
+        },
+        {
+          "name": "30Y Treasury",
+          "symbol": "ZB",
+          "category": "Bonds",
+          "positions": {
+            "commercial": {
+              "long": 4160322,
+              "short": 3495332,
+              "net": 664990
+            },
+            "nonCommercial": {
+              "long": 698068,
+              "short": 1427482,
+              "net": -729414
+            }
+          },
+          "openInterest": 5495119
+        }
+      ]
+    }
+  ]
+}

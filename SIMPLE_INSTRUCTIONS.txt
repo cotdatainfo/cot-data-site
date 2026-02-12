@@ -1,0 +1,58 @@
+🖼️ HOW TO ADD IMAGES TO YOUR BLOG
+
+══════════════════════════════════════════════
+
+STEP 1: Run this command in your project folder
+-----------------------------------------------
+bash add-image-support.sh
+
+This creates the folders you need.
+
+
+STEP 2: Add your image
+----------------------
+Copy your image file to: public/blog/images/
+
+Example:
+  cp ~/Desktop/my-chart.png public/blog/images/gold-chart.png
+
+
+STEP 3: Use it in a blog post
+------------------------------
+In any .md file in app/blog/posts/, add this line:
+
+  ![Chart description](../../public/blog/images/gold-chart.png)
+
+DONE! That's it.
+
+══════════════════════════════════════════════
+
+TESTING LOCALLY (Optional)
+--------------------------
+Want to see it before deploying?
+
+  npm install    (first time only)
+  npm run dev
+  
+Open: http://localhost:3000/blog
+
+══════════════════════════════════════════════
+
+REAL EXAMPLE
+------------
+Let's say you have a gold chart you made in Excel.
+
+1. Export chart as PNG
+2. Save to: public/blog/images/2026-02-11-gold.png
+3. Edit your blog post (app/blog/posts/2026-02-11-weekly-cot.md)
+4. Add this line:
+
+   ![Gold positioning chart](../../public/blog/images/2026-02-11-gold.png)
+
+5. Save file
+6. Push to GitHub
+7. Done - image appears in your blog!
+
+══════════════════════════════════════════════
+
+That's literally all there is to it.
